@@ -1,1 +1,3 @@
-pip install Streamlit qrcode Pillow
+pip install streamlit 
+pip install qrcode 
+pip install Pillow
