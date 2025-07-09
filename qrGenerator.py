@@ -32,7 +32,7 @@ def image_to_base64(img):
     return base64.b64encode(img_bytes).decode()
 
 # Streamlit app
-st.image("header.png", use_column_width=True)
+st.image("header.png", use_container_width=True)
 
 # Input for QR code data
 data = st.text_input("Enter the data or URL to encode in the QR code:")
